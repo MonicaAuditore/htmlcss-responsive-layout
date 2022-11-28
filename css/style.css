@@ -49,18 +49,43 @@ h4 {
   margin: 0 auto;
 }
 
+.flex-container {
+  display: flex;
+}
+
+/* HEADER / NAV */
+
 header {
   background-color: var(--blu);
 }
 
 nav {
-  height: 65px;
+  padding: 20px 0px;
   justify-content: space-between;
   align-items: center;
 }
 
-.flex-container {
+header .link ul {
+  list-style: none;
   display: flex;
+}
+
+header .link ul li a {
+  text-decoration: none;
+}
+
+header .link ul li:not(:last-child) {
+  padding-right: 20px;
+}
+
+header .link ul li:not(:last-child) a {
+  color: #fff;
+}
+
+header .link ul li:last-child a {
+  background-color: #fff;
+  padding: 10px 12px;
+  border-radius: 50px;
 }
 
 /* SEZIONE UNO */
@@ -82,6 +107,7 @@ nav {
 
 .sezioneCard .card:first-child {
   width: calc(((100% / 3) * 2) - 1.5rem);
+  display: flex;
 }
 
 /* SEZIONE DUE */
