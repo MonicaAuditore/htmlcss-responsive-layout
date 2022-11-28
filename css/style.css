@@ -103,9 +103,8 @@ nav {
   padding: 50px 0px;
 }
 
-.text h2,
-h4,
-p {
+.sezione-tre,
+.sezione-quattro {
   text-align: center;
 }
 
@@ -138,3 +137,21 @@ p {
   flex-wrap: wrap;
   gap: 10px;
 }
+
+/* SEZIONE CINQUE */
+
+.sezione-cinque h2 {
+  color: var(--light-purple);
+  padding: 50px 0px;
+}
+
+.sezioneAboutUs {
+  justify-content: space-between;
+}
+
+.about-text {
+  width: 60%;
+  text-align: left;
+}
+
+/* SEZIONE SEI */
