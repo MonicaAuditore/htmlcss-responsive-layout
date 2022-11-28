@@ -4,8 +4,23 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/* GENERALI */
+
 body {
   font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h4 {
+  font-weight: 400;
+}
+
+.padding-bottom-top-30 {
+  padding: 30px 0px;
 }
 
 :root {
@@ -61,6 +76,7 @@ nav {
   background-color: #9792e4;
   height: 400px;
   width: 100%;
+  padding: 50px 0px;
 }
 
 .sezioneBlocchi {
@@ -75,4 +91,27 @@ nav {
   background-color: #fff;
   border-radius: 5px;
   width: 50%;
+}
+
+/* SEZIONE TRE */
+
+.sezioneTestimonials {
+  padding-top: 50px;
+}
+
+.sezioneTestimonials_text {
+  text-align: center;
+}
+
+.sezioneTestimonials_cards {
+  padding-top: 40px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card-testimonials {
+  width: 100%;
+  height: 100px;
+  border-radius: 5px;
+  background-color: #9792e4;
 }
