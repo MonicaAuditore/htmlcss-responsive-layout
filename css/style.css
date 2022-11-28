@@ -41,10 +41,11 @@ h4 {
   --light-purple: #9792e4;
   --yellow: #fdc15f;
   --dark-grey: #333333;
+  --main-space: 3px;
 }
 
 .main-container {
-  width: 60vw;
+  max-width: 60vw;
   margin: 0 auto;
 }
 
@@ -67,20 +68,20 @@ nav {
 .sezioneCard {
   padding: 50px 0px;
   flex-wrap: wrap;
-  gap: 10px;
-  justify-content: space-between;
 }
 
-.card {
+.sezioneCard .card {
   background-color: var(--light-blu);
   height: 200px;
   border-radius: 25px;
-  width: calc((100% / 3) - 10px);
-  flex-grow: 1;
+  width: calc((100% / 3) - 1.5rem);
+  margin-bottom: 25px;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 
-.card-1 {
-  flex-grow: 2;
+.sezioneCard .card:first-child {
+  width: calc(((100% / 3) * 2) - 1.5rem);
 }
 
 /* SEZIONE DUE */
