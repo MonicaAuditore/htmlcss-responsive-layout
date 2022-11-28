@@ -11,6 +11,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+h1 {
+  font-size: 60px;
+}
+
 h2 {
   font-size: 35px;
 }
@@ -21,6 +25,14 @@ h4 {
 
 .padding-bottom-top-30 {
   padding: 30px 0px;
+}
+
+.padding-bottom-15 {
+  padding-bottom: 15px;
+}
+
+.padding-top-15 {
+  padding-top: 15px;
 }
 
 :root {
@@ -64,10 +76,11 @@ nav {
   height: 200px;
   border-radius: 25px;
   width: calc((100% / 3) - 10px);
+  flex-grow: 1;
 }
 
 .card-1 {
-  flex-grow: 1;
+  flex-grow: 2;
 }
 
 /* SEZIONE DUE */
@@ -140,9 +153,12 @@ nav {
 
 /* SEZIONE CINQUE */
 
+.sezione-cinque {
+  padding: 50px 0px;
+}
+
 .sezione-cinque h2 {
   color: var(--light-purple);
-  padding: 50px 0px;
 }
 
 .sezioneAboutUs {
@@ -155,3 +171,11 @@ nav {
 }
 
 /* SEZIONE SEI */
+
+.sezione-sei {
+  background-color: #9792e4;
+  height: 400px;
+  width: 100%;
+  padding: 50px 0px;
+  text-align: center;
+}
