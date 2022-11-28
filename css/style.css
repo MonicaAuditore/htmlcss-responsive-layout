@@ -53,6 +53,13 @@ h4 {
   display: flex;
 }
 
+.btn-1 {
+  padding: 15px 25px;
+  border-radius: 50px;
+  border: none;
+  letter-spacing: 4px;
+}
+
 /* HEADER / NAV */
 
 header {
@@ -97,7 +104,6 @@ header .link ul li:last-child a {
 
 .sezioneCard .card {
   background-color: var(--light-blu);
-  height: 200px;
   border-radius: 25px;
   width: calc((100% / 3) - 1.5rem);
   margin-bottom: 25px;
@@ -105,9 +111,31 @@ header .link ul li:last-child a {
   margin-right: 0.75rem;
 }
 
+.sezioneCard .card h3 {
+  color: var(--blu);
+}
+
 .sezioneCard .card:first-child {
   width: calc(((100% / 3) * 2) - 1.5rem);
   display: flex;
+}
+
+.sezioneCard .card-1 img {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: self-end;
+}
+
+.sezioneCard .card-1 .box-text {
+  line-height: 35px;
+  padding: 30px;
+  width: 100%;
+}
+
+.sezioneCard .card-1 .box-text button {
+  background-color: var(--blu);
+  color: #fff;
 }
 
 /* SEZIONE DUE */
