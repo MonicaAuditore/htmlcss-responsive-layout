@@ -179,3 +179,20 @@ nav {
   padding: 50px 0px;
   text-align: center;
 }
+
+/* FOOTER */
+
+footer {
+  background-color: #333333;
+  height: 240px;
+  padding: 50px 0px;
+}
+
+.footerContent p {
+  text-align: center;
+  color: #fff;
+}
+
+.footerContent a {
+  color: var(--light-purple);
+}
