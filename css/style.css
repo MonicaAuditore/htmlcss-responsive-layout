@@ -16,7 +16,11 @@ h1 {
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 43px;
+}
+
+h3 {
+  font-size: 26px;
 }
 
 h4 {
@@ -25,6 +29,10 @@ h4 {
 
 .padding-bottom-top-30 {
   padding: 30px 0px;
+}
+
+.padding-bottom-top-40 {
+  padding: 40px 0px;
 }
 
 .padding-bottom-15 {
@@ -58,6 +66,7 @@ h4 {
   border-radius: 50px;
   border: none;
   letter-spacing: 4px;
+  cursor: pointer;
 }
 
 /* HEADER / NAV */
@@ -100,6 +109,7 @@ header .link ul li:last-child a {
 .sezioneCard {
   padding: 50px 0px;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .sezioneCard .card {
@@ -107,8 +117,8 @@ header .link ul li:last-child a {
   border-radius: 25px;
   width: calc((100% / 3) - 1.5rem);
   margin-bottom: 25px;
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
 }
 
 .sezioneCard .card h3 {
@@ -120,17 +130,19 @@ header .link ul li:last-child a {
   display: flex;
 }
 
-.sezioneCard .card-1 img {
-  width: 70%;
+.sezioneCard .card-1 .box-img {
   display: flex;
   justify-content: center;
   align-items: self-end;
 }
 
+.sezioneCard .card-1 img {
+  width: 100%;
+}
+
 .sezioneCard .card-1 .box-text {
   line-height: 35px;
   padding: 30px;
-  width: 100%;
 }
 
 .sezioneCard .card-1 .box-text button {
@@ -138,11 +150,22 @@ header .link ul li:last-child a {
   color: #fff;
 }
 
+.sezioneCard .card-2 {
+  text-align: center;
+  line-height: 35px;
+  padding: 30px;
+}
+
+.sezioneCard .card-2 i {
+  color: var(--blu);
+  font-size: 75px;
+  padding-bottom: 10px;
+}
+
 /* SEZIONE DUE */
 
 .sezione-due {
   background-color: #9792e4;
-  height: 400px;
   width: 100%;
   padding: 50px 0px;
 }
@@ -150,22 +173,52 @@ header .link ul li:last-child a {
 .sezioneBlocchi {
   justify-content: center;
   align-items: flex-end;
-  padding: 60px;
-  gap: 30px;
+  padding: 115px;
+  gap: 60px;
 }
 
-.col {
-  height: 200px;
-  background-color: #fff;
-  border-radius: 5px;
+.sezione-due .col-left img {
+  width: 100%;
+}
+
+.sezione-due .col-left {
+  color: #fff;
+  line-height: 35px;
   width: 50%;
 }
+
+.sezione-due .col-right {
+  background-color: #fff;
+  line-height: 35px;
+  width: 50%;
+  border-radius: 30px;
+  padding: 35px;
+  text-align: center;
+}
+
+.sezione-due .col-right img {
+  width: 50%;
+}
+
+.sezione-due .circle {
+  height: 50px;
+  width: 50px;
+  background-color: var(--light-purple);
+  border-radius: 50%;
+  vertical-align: middle;
+  margin: 35px auto 0px auto;
+}
+
+.sezione-due .circle i {
+  vertical-align: middle;
+  padding-top: 10px;
+}
+
+/* SEZIONE TRE */
 
 .sezione-tre h2 {
   color: var(--light-purple);
 }
-
-/* SEZIONE TRE */
 
 .sezioneTestimonials {
   padding: 50px 0px;
