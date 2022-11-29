@@ -40,6 +40,10 @@ h4 {
   padding: 40px 0px;
 }
 
+.padding-bottom-top-60 {
+  padding: 60px 0px;
+}
+
 .padding-bottom-15 {
   padding-bottom: 15px;
 }
@@ -368,17 +372,43 @@ h3 {
 
 .sezione-sei {
   background-color: #9792e4;
-  height: 400px;
   width: 100%;
   padding: 50px 0px;
   text-align: center;
+  color: #fff;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: var(--light-purple);
+  font-weight: 600;
+  font-size: 16px;
+  padding: 24px 58px;
+}
+
+.sezione-sei h1 {
+  color: var(--yellow);
+}
+
+.sezione-sei a {
+  color: #fff;
+}
+
+.sezione-sei i {
+  font-size: 5px;
+  vertical-align: middle;
+  line-height: 2px;
+}
+
+.sezioneContainer-30 {
+  width: 30%;
+  margin: 0 auto;
 }
 
 /* FOOTER */
 
 footer {
   background-color: #333333;
-  height: 240px;
   padding: 50px 0px;
 }
 
