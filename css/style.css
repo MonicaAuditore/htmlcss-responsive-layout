@@ -79,7 +79,7 @@ h4 {
 }
 
 .btn-1 {
-  padding: 15px 25px;
+  padding: 15px 65px;
   border-radius: 50px;
   border: none;
   letter-spacing: 4px;
@@ -139,6 +139,11 @@ header .link ul li:last-child a {
   background-color: #fff;
   padding: 10px 12px;
   border-radius: 50px;
+}
+
+.link-burgerMenu {
+  color: #fff;
+  display: none;
 }
 
 /* SEZIONE UNO */
@@ -216,6 +221,10 @@ header .link ul li:last-child a {
   gap: 60px;
 }
 
+.sezione-due .col-left h3 {
+  color: #fff;
+}
+
 .sezione-due .col-left img {
   width: 100%;
 }
@@ -278,6 +287,7 @@ header .link ul li:last-child a {
   padding: 40px;
   gap: 40px;
   color: #fff;
+  text-align: left;
 }
 
 .card-testimonials .card-testimonials-img img {
@@ -442,4 +452,57 @@ footer {
 
 .footerContent a {
   color: var(--light-purple);
+}
+
+/* MEDIA QUERY TABLET */
+
+@media screen and (max-width: 768px) {
+  .link-burgerMenu {
+    display: block;
+  }
+  .link {
+    display: none;
+  }
+  .main-container {
+    max-width: 100%;
+    padding: 30px;
+  }
+
+  .sezioneCard .card:first-child {
+    flex-direction: column;
+  }
+
+  .sezioneCard .card-1 .box-img {
+    justify-content: flex-start;
+  }
+
+  .sezioneCard .card-1 img {
+    width: 67%;
+  }
+
+  .sezioneBlocchi {
+    flex-wrap: wrap;
+  }
+
+  .sezione-due .col-left {
+    width: 100%;
+  }
+
+  .sezione-due .col-right {
+    width: 100%;
+  }
+
+  .benefit-card {
+    width: calc((100% / 2) - 20px);
+  }
+
+  .sezioneBenefits_cards {
+    gap: 35px;
+    justify-content: space-between;
+  }
+}
+
+/* MEDIA QUERY MOBILE */
+
+@media screen and (max-width: 480px) {
 }
