@@ -562,4 +562,8 @@ footer {
   .sezioneContainer-30 {
     width: 90%;
   }
+
+  #Get-Started h2 {
+    line-height: 65px;
+  }
 }
