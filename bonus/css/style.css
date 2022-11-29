@@ -227,7 +227,7 @@ header .link ul li:last-child a {
 .navigation__link:hover,
 .navigation__link:active {
   background-position: 100%;
-  color: var(--light-purple);
+  color: var(--light-blu);
 }
 
 .navigation__checkbox:checked ~ .navigation__background {
