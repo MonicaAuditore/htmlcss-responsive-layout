@@ -304,7 +304,6 @@ header .link ul li:last-child a {
 
 .card-testimonial-quote .author {
   font-weight: 700;
-  text-align: left;
   padding-top: 30px;
 }
 
@@ -517,4 +516,50 @@ footer {
 /* MEDIA QUERY MOBILE */
 
 @media screen and (max-width: 480px) {
+  .main-container {
+    max-width: 100%;
+    padding: 30px;
+  }
+
+  .sezioneCard .card:first-child {
+    width: 100%;
+  }
+
+  .sezioneCard .card-1 .box-img {
+    justify-content: center;
+  }
+
+  .sezioneCard .card {
+    width: 100%;
+  }
+
+  .card-testimonials {
+    height: 100%;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .benefit-card {
+    width: 100%;
+  }
+
+  .sezioneAboutUs {
+    flex-wrap: wrap;
+  }
+
+  .about-text {
+    padding: 0px;
+  }
+
+  .about-left {
+    padding: 65px 0px 0px 0px;
+  }
+
+  .about-img i {
+    right: 165px;
+  }
+
+  .sezioneContainer-30 {
+    width: 90%;
+  }
 }
