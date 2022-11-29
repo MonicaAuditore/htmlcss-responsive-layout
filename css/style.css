@@ -96,7 +96,8 @@ h4 {
 #Testimonials,
 #Features,
 #About-us,
-#Get-Started {
+#Get-Started,
+#Logo {
   scroll-margin-top: 100px;
 }
 
@@ -499,6 +500,17 @@ footer {
   .sezioneBenefits_cards {
     gap: 35px;
     justify-content: space-between;
+  }
+  .about-text {
+    padding: 0 25px 0px 30px;
+  }
+
+  .about-left {
+    padding: 0 30px 0px 25px;
+  }
+
+  .sezioneContainer-30 {
+    width: 48%;
   }
 }
 
