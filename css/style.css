@@ -9,6 +9,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  line-height: 35px;
 }
 
 h1 {
@@ -224,8 +225,7 @@ header .link ul li:last-child a {
   padding: 50px 0px;
 }
 
-.sezione-tre,
-.sezione-quattro {
+.sezione-tre .text-intro {
   text-align: center;
 }
 
@@ -236,13 +236,38 @@ header .link ul li:last-child a {
 }
 
 .card-testimonials {
-  width: 100%;
-  height: 100px;
-  border-radius: 25px;
+  height: 276px;
+  border-radius: 42px;
   background-color: #9792e4;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  gap: 40px;
+  color: #fff;
+}
+
+.card-testimonials .card-testimonials-img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card-testimonial-quote i {
+  font-size: 25px;
+}
+
+.card-testimonial-quote .author {
+  font-weight: 700;
+  text-align: left;
+  padding-top: 30px;
 }
 
 /* SEZIONE QUATTRO */
+
+.sezione-quattro {
+  text-align: center;
+}
 
 .sezione-quattro {
   padding: 50px 0px;
