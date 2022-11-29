@@ -309,7 +309,7 @@ h3 {
 /* SEZIONE CINQUE */
 
 .sezione-cinque {
-  padding: 50px 0px;
+  padding: 95px 0px;
 }
 
 .sezione-cinque h2 {
@@ -320,9 +320,48 @@ h3 {
   justify-content: space-between;
 }
 
+.about-left {
+  padding: 0 100px 0px 50px;
+}
+
+.about-img {
+  flex-grow: 1;
+}
+
+.about-img img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.about-img {
+  position: relative;
+}
+
+.about-img i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 75px;
+  color: var(--light-purple);
+}
+
+.btn-linkedin {
+  margin-top: 20px;
+  padding: 13px;
+  color: #fff;
+  background-color: var(--light-purple);
+}
+
+.btn-linkedin i {
+  font-size: 20px;
+  vertical-align: middle;
+}
+
 .about-text {
-  width: 60%;
+  flex-grow: 2;
   text-align: left;
+  padding: 0 50px 0px 100px;
 }
 
 /* SEZIONE SEI */
