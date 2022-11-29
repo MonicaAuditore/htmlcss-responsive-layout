@@ -7,6 +7,10 @@
 
 /* GENERALI */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   line-height: 35px;
@@ -86,10 +90,26 @@ h4 {
   text-align: center;
 }
 
+/* REGOLE PER SCROLL */
+
+#Planning,
+#Testimonials,
+#Features,
+#About-us,
+#Get-Started {
+  scroll-margin-top: 100px;
+}
+
 /* HEADER / NAV */
 
 header {
   background-color: var(--blu);
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 
 nav {
@@ -332,6 +352,7 @@ h3 {
 
 .about-img {
   flex-grow: 1;
+  z-index: 1;
 }
 
 .about-img img {
