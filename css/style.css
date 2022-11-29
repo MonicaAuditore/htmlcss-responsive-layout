@@ -32,12 +32,20 @@ h4 {
   padding: 30px 0px;
 }
 
+.margin-bottom-top-30 {
+  margin: 30px 0px;
+}
+
 .padding-bottom-top-40 {
   padding: 40px 0px;
 }
 
 .padding-bottom-15 {
   padding-bottom: 15px;
+}
+
+.padding-bottom-30 {
+  padding-bottom: 30px;
 }
 
 .padding-top-15 {
@@ -68,6 +76,10 @@ h4 {
   border: none;
   letter-spacing: 4px;
   cursor: pointer;
+}
+
+.text-intro {
+  text-align: center;
 }
 
 /* HEADER / NAV */
@@ -225,10 +237,6 @@ header .link ul li:last-child a {
   padding: 50px 0px;
 }
 
-.sezione-tre .text-intro {
-  text-align: center;
-}
-
 .sezioneTestimonials_cards {
   padding-top: 40px;
   gap: 30px;
@@ -266,11 +274,7 @@ header .link ul li:last-child a {
 /* SEZIONE QUATTRO */
 
 .sezione-quattro {
-  text-align: center;
-}
-
-.sezione-quattro {
-  padding: 50px 0px;
+  padding: 70px 0px;
   background-color: #9792e4;
 }
 
@@ -279,9 +283,27 @@ header .link ul li:last-child a {
 }
 
 .sezioneBenefits_cards {
-  padding: 50px 0px;
+  padding: 70px 0px;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
+}
+
+.benefit-card {
+  width: calc((100% / 3) - 20px);
+  background-color: #fff;
+  border-radius: 35px;
+  padding: 55px 35px 35px 35px;
+}
+
+.benefit-card h1,
+h3 {
+  color: var(--light-purple);
+}
+
+.btn-purple {
+  background-color: var(--light-purple);
+  color: #fff;
+  padding: 15px 50px;
 }
 
 /* SEZIONE CINQUE */
